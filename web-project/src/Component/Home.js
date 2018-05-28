@@ -32,8 +32,8 @@ class Home extends Component{
         </div>
 
          <div class="w3-row">
-            <div class="w3-col s6 w3-center"><p><a href="/Product" className="w3-bar-item" onClick="toggleFunction()"><img src="Promo2.png" class="w3-round w3-opacity w3-hover-opacity-off" width="600" alt="1" /></a></p></div>
-            <div class="w3-col s6 m5 w3-center"><p><img src="Promo1.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Pt of Me" width="400" /></p></div>
+            <div class="w3-col s6 w3-center"><p><a href="/Product" className="w3-bar-item" onClick="toggleFunction()"><img src="Promo2.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" width="600" alt="1" /></a></p></div>
+            <div class="w3-col s6 m5 w3-center"><p><img src="Promo1.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Pt of Me" width="566" /></p></div>
         </div> 
         </div>
     );
