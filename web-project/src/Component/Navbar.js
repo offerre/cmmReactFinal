@@ -18,16 +18,13 @@ class Navbar extends Component{
         return(
         <div className="w3-top">
             <div className="w3-bar" id="myNavbar">
-                <a className="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onClick="toggleFunction()" title="Toggle Navigation Menu">
+                <a className="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="" onClick="toggleFunction()" title="Toggle Navigation Menu">
                 <i className="fa fa-bars"></i>
                 </a>
-                <a href="/" className="w3-bar-item w3-button"><img src="logo2.png" width="20" height="20" /></a>
+                <a href="/" className="w3-bar-item w3-button"><img src="logo2.png" width="20" height="20" alt="" /></a>
                 <a href="/Product" className="w3-bar-item w3-button w3-hide-small"><i className="fa fa-th"></i> PRODUCT</a>
                 <a href="/Order" className="w3-bar-item w3-button w3-hide-small"><i className="fa fa-bars"></i> ORDER</a>
                 <a href="/Contact" className="w3-bar-item w3-button w3-hide-small"><i className="fa fa-envelope"></i> CONTACT</a>
-                <a href="#" className="w3-bar-item w3-button w3-hide-small w3-right w3-hover-green">
-                <i className="fa fa-search"></i>
-                </a>
             </div>
 
             {/* Navbar on small screens */}
@@ -35,7 +32,6 @@ class Navbar extends Component{
                 <a href="/Order" className="w3-bar-item w3-button" onClick="toggleFunction()">ORDER</a>
                 <a href="/Product" className="w3-bar-item w3-button" onClick="toggleFunction()">PRODUCT</a>
                 <a href="/Contact" className="w3-bar-item w3-button" onClick="toggleFunction()">CONTACT</a>
-                <a href="#" className="w3-bar-item w3-button">SEARCH</a>
             </div>
         </div>
         )
