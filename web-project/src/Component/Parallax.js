@@ -4,7 +4,7 @@ import './Parallax.css'
 class Parallax extends Component{
     render(){
         return(
-        <div>
+        <div id="home">
             This is Parallax.
         </div>
         )

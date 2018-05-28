@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 import './Product.css'
 import Carousel from './Carousel'
 
-var sectionStyle1 = {
-  width : "400px",
-}
-
 var Style1 ={
   width : "100%",
 }
@@ -25,7 +21,7 @@ var Style4 ={
 class Product extends Component{
   render(){
     return(
-        <div>
+        <div id="home">
             <Carousel />
 
             <div className="w3-content w3-container" id="Products">
