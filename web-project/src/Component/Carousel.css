@@ -1,6 +1,18 @@
 
-.Slide-img{
-    height: 20em;
+.Slide-img-center{
+    height: 25em;
     object-fit: cover;
     object-position: center;
+  }
+
+.Slide-img-top{
+    height: 25em;
+    object-fit: cover;
+    object-position: top;
+  }
+
+.Slide-img-bottom{
+    height: 25em;
+    object-fit: cover;
+    object-position: bottom;
   }

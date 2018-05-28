@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './Product.css'
+import Carousel from './Carousel'
 
 class Product extends Component{
   render(){
     return(
         <div>
-            This is Product.
+            <Carousel />
         </div>
     );
   }
