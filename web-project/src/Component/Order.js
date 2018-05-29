@@ -17,16 +17,57 @@ class Order extends Component{
                 </div>
             </div>
 
-              {/* Container (About Section) */}
+              {/* Container (CheckOut Section) */}
         <div class="w3-content w3-container w3-padding-64" id="order">
-        <h3 class="w3-center w3-padding-32">Order List</h3>
-            <p>
-            Srichan United Industrial Co., Ltd., established in 1948, has been in the business of manufacturing and distributing quality pharmaceuticals, 
-            cosmetics and cosmetics for over 70 years, making the "Srichan" brand one of the oldest cosmetics brands. Most of Thailand Srichan has a very popular product in Thailand and abroad, 
-            namely Srichand Translucent Powder, a lightweight translucent powder with the unique properties of Srichan Translucent Powder. 
-            Srichan Transparent Powder is the best selling powder in Thailand in 2015 and in this year 2017 we have expanded our range of products. up To be brand with the beauty of Thai women and women around the world. 
-            Available now at Watson Booth Eve & Boyd. Seven Eleven Duty Free Sriracha in flight THAI AirAsia, Siam Royal Gem, leading department stores and stores throughout Thailand and five other Asian countries.
-            </p>
+          <h2 class="w3-padding-24">Shopping Cart</h2>
+          Coming Soon...
+          <div class="row">
+          <div class="column">
+            <h2>Total Price</h2>
+            {/* <!-- main --> */}
+            <div class="main">
+                <div class="main-info">
+                  <div class="form-left">
+                    <h2>Checkout</h2>
+                    <p>Select shipping method </p>
+                    {/* <!--radio-buttons--> */}
+                    <div class="grid-radio">
+                      <span class="radio-circle radio-left">
+                        <input type="radio" id="radio01" name="radio" />
+                        <label for="radio01"><i></i>USPS Express Mail</label>
+                      </span>
+                      <span class="radio-circle">
+                        <input type="radio" id="radio02" name="radio"/>
+                        <label for="radio02"><i></i>FedEx</label>
+                      </span>
+                    </div>
+                    {/* <!--//radio-buttons--> */}
+                    <a href="#" class="pay-pal"> Checkout with <span>PayPal</span></a>
+                    <span class="middle-text">OR</span>
+                  </div>
+                  <div class="form-right">
+                    <div class="top-text">
+                      <h3>Total Price</h3>
+                      <span class="price">$ 150</span>
+                      <div class="clear"> </div>
+                    </div>
+                    <p>Shopping cart:2 products</p>
+                    <div class="account">
+                      <form> 
+                        <input type="text" class="checkout name" placeholder="Name" />
+                        <input type="text" class="checkout month" placeholder="MM" maxlength="2" />
+                        <input type="text" class="checkout month" placeholder="YY" maxlength="4" />
+                        <input type="text" class="checkout pin" placeholder="4444 1111 3333 2222" maxlength="12" />
+                        <input type="text" class="checkout month" placeholder="CVC" maxlength="4" />
+                        <input type="submit" value="Checkout with credit card" />
+                      </form>
+                    </div>
+                  </div>
+                  <div class="clear"> </div>
+                </div>		
+            </div>
+          </div>
+          </div>
         </div>
         </div>
     );
