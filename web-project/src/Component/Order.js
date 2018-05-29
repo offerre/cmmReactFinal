@@ -24,10 +24,10 @@ class Order extends Component{
             <h2 className="w3-myFont title-font-size">CheckOut</h2>
             {/* <!-- main --> */}
             <div className="main">
-                <div className="main-info">
+                <div className="main-info2">
                   <div className="form-left">
                     <h2>Checkout</h2>
-                    <p>Select shipping method </p>
+                    <p className="w3-text-white">Select shipping method </p>
                     {/* <!--radio-buttons--> */}
                     <div className="grid-radio">
                       <span className="radio-circle radio-left">
@@ -49,7 +49,7 @@ class Order extends Component{
                       <span className="price">$ 150</span>
                       <div className="clear"> </div>
                     </div>
-                    <p>Shopping cart:2 products</p>
+                    <p className="w3-text-white">Shopping cart:2 products</p>
                     <div className="account">
                       <form> 
                         <input type="text" className="checkout name" placeholder="Name" />
@@ -66,7 +66,7 @@ class Order extends Component{
             </div>
           </div>
           </div>
-          <h2 className="w3-padding-24 w3-myFont title-font-size">Shopping Cart</h2>
+          <h2 className="w3-padding-24 w3-myFont title-font-size ">Shopping Cart</h2>
           Coming Soon...
         </div>
         </div>

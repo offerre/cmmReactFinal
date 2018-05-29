@@ -94,11 +94,16 @@ h1 {
     padding: 2em 0 0;
 }
 .main-info {
-    background: linear-gradient(to right,  #32d4fc 0%,#e085f7 63%,#e085f7 100%,#e085f7 100%,#2989d8 100%,#2989d8 100%);;
+    background: linear-gradient(to right,  #32d4fc 0%,#ff4c82 63%,#ffcc00 90%,#ffcc00 100%,#ff9900 100%,#2989d8 100%);;
 }
 
+.main-info2 {
+    background: linear-gradient(to right,  #373c81 0%,#c0446d 60%,#fff671 100%);;
+}
+
+
 .main-info1{
-    background: grey
+    background: rgb(255, 97, 176)
 }
 /*--//main--*/
 .form-left {
