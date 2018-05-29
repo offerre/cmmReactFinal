@@ -22,7 +22,8 @@ class Navbar extends Component{
                 <Link to="" className="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" title="Toggle Navigation Menu">
                 <i className="fa fa-bars"></i>
                 </Link>
-                <Link exact to="/" className="w3-bar-item w3-button"><img src="logo2.png" width="20" height="20" alt="" /></Link>
+                <Link exact to="/" className="w3-bar-item w3-button"><img src="Logo5.png" width="20" height="20" alt="" /></Link>
+                <Link exact to="/" class="w3-bar-item w3-button">HOME</Link>
                 <Link to="/Products" className="w3-bar-item w3-button w3-hide-small"><i className="fa fa-th"></i> PRODUCT</Link>
                 <Link to="/Order" className="w3-bar-item w3-button w3-hide-small"><i className="fa fa-bars"></i> ORDER</Link>
                 <Link to="/Contact" className="w3-bar-item w3-button w3-hide-small"><i className="fa fa-envelope"></i> CONTACT</Link>
@@ -30,6 +31,7 @@ class Navbar extends Component{
 
             {/* Navbar on small screens */}
             <div id="navDemo" className="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+                <Link exact to="/" class="w3-bar-item w3-button">HOME</Link>
                 <Link to="/Product" className="w3-bar-item w3-button" >PRODUCT</Link>
                 <Link to="/Order" className="w3-bar-item w3-button" >ORDER</Link>
                 <Link to="/Contact" className="w3-bar-item w3-button" >CONTACT</Link>

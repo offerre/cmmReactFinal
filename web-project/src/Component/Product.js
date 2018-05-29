@@ -44,7 +44,7 @@ class Product extends Component{
                   <img src="Product/ลิป/p1.jpg" style={Style1} alt="" />
                   <span className="w3-tag w3-display-topleft">New</span>
                     <div className="w3-display-middle w3-display-hover">
-                    <a href="/Order"><button className="w3-button w3-black">Buy now <i className="fa fa-shopping-cart"></i></button></a>
+                    <a href="/Order"><button className="w3-button w3-black w3-myFont w3-animate-opacity">Buy now <i className="fa fa-shopping-cart"></i></button></a>
                     </div>
                   </div>
                   <p>เบตต้า ลิควิด ลิปสติก<br /><b>฿220</b></p>
@@ -55,7 +55,7 @@ class Product extends Component{
                   <img src="Product/แป้ง/5.jpg" style={Style1} alt="" />
                   <span className="w3-tag w3-display-topleft">Sale</span>
                     <div className="w3-display-middle w3-display-hover">
-                    <a href="/Order"><button className="w3-button w3-black">Buy now <i className="fa fa-shopping-cart"></i></button></a>
+                    <a href="/Order"><button className="w3-button w3-black w3-myFont w3-animate-opacity">Buy now <i className="fa fa-shopping-cart"></i></button></a>
                     </div>
                   </div>
                   <p>ศรีจันทร์ ทรานส์ลูเซนท์ คอมแพค พาวเดอร์ (รีฟิว)<br /><b className="w3-text-red"><del>฿280</del> ฿140</b></p>
@@ -69,7 +69,7 @@ class Product extends Component{
                     <img src="Product/อายแชโดว์/5.jpg" style={Style1} alt="" />
                     <span className="w3-tag w3-display-topleft">New</span>
                     <div className="w3-display-middle w3-display-hover">
-                    <a href="/Order"><button className="w3-button w3-black">Buy now <i className="fa fa-shopping-cart"></i></button></a>
+                    <a href="/Order"><button className="w3-button w3-black w3-myFont w3-animate-opacity">Buy now <i className="fa fa-shopping-cart"></i></button></a>
                     </div>
                   </div>
                   <p>เบตต้า อายแชโดว์ #เอนด์เลส ซัมเมอร์<br /><b>฿490</b></p>
@@ -80,7 +80,7 @@ class Product extends Component{
                   <img src="Product/อายแชโดว์/1.jpg" style={Style1} alt="" />
                   <span className="w3-tag w3-display-topleft">Sale</span>
                     <div className="w3-display-middle w3-display-hover">
-                    <a href="/Order"><button className="w3-button w3-black">Buy now <i className="fa fa-shopping-cart"></i></button></a>                    </div>
+                    <a href="/Order"><button className="w3-button w3-black w3-myFont w3-animate-opacity">Buy now <i className="fa fa-shopping-cart"></i></button></a>                    </div>
                   </div>
                   <p>เบตต้า อายแชโดว์ #ซีเคร็ต การ์เดน<br /><b className="w3-text-red"><del>฿490</del> ฿245</b></p>
                 </div>
@@ -93,7 +93,7 @@ class Product extends Component{
                   <img src="Product/กันแดด/1.jpg" style={Style2} alt="" />
                   <span className="w3-tag w3-display-topleft">New</span>
                     <div className="w3-display-middle w3-display-hover">
-                    <a href="/Order"><button className="w3-button w3-black">Buy now <i className="fa fa-shopping-cart"></i></button></a>
+                    <a href="/Order"><button className="w3-button w3-black w3-myFont w3-animate-opacity">Buy now <i className="fa fa-shopping-cart"></i></button></a>
                     </div>
                   </div>
                   <p>ลูมิเนสเซนส์ แฟบูลัส ยูวี ชิลด์ ขนาด 15 มล.<br /><b>฿159</b></p>
@@ -104,7 +104,7 @@ class Product extends Component{
                     <img src="Product/รองพื้น/2.jpg" style={Style3} alt="" />
                     <span className="w3-tag w3-display-topleft">Sale</span>
                     <div className="w3-display-middle w3-display-hover">
-                    <a href="/Order"><button className="w3-button w3-black">Buy now <i className="fa fa-shopping-cart"></i></button></a>
+                    <a href="/Order"><button className="w3-button w3-black w3-myFont w3-animate-opacity">Buy now <i className="fa fa-shopping-cart"></i></button></a>
                     </div>
                   </div>
                   <p>ลูมิเนสเซนส์ สเพลนเดอรัส อันเดอร์ เมคอัพ สี SC05<br /><b className="w3-text-red"><del>฿490</del> ฿147</b></p>
@@ -119,7 +119,7 @@ class Product extends Component{
                   <img src="Product/ผู้ชาย/1.jpg" style={Style4} alt="" />
                   <span className="w3-tag w3-display-topleft">New</span>
                     <div className="w3-display-middle w3-display-hover">
-                    <a href="/Order"><button className="w3-button w3-black">Buy now <i className="fa fa-shopping-cart"></i></button></a>
+                    <a href="/Order"><button className="w3-button w3-black w3-myFont w3-animate-opacity">Buy now <i className="fa fa-shopping-cart"></i></button></a>
                     </div>
                   </div>
                   <p>ศรีจันทร์ฟอร์เมน แบลคเอดิชั่น 5 กรัม<br /><b>฿189</b></p>
@@ -130,7 +130,7 @@ class Product extends Component{
                   <img src="Product/แป้ง/11.jpg" style={Style4} alt="" />
                   <span className="w3-tag w3-display-topleft">Sale</span>
                     <div className="w3-display-middle w3-display-hover">
-                    <a href="/Order"><button className="w3-button w3-black">Buy now <i className="fa fa-shopping-cart"></i></button></a>
+                    <a href="/Order"><button className="w3-button w3-black w3-myFont w3-animate-opacity">Buy now <i className="fa fa-shopping-cart"></i></button></a>
                     </div>
                   </div>
                   <p>ศรีจันทร์ ทรานส์ลูเซนท์ พาวเดอร์ ขนาด 30 กรัม<br /><b className="w3-text-red"><del>฿590</del> ฿295</b></p>

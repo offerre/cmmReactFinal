@@ -96,6 +96,10 @@ h1 {
 .main-info {
     background: linear-gradient(to right,  #32d4fc 0%,#e085f7 63%,#e085f7 100%,#e085f7 100%,#2989d8 100%,#2989d8 100%);;
 }
+
+.main-info1{
+    background: grey
+}
 /*--//main--*/
 .form-left {
     float: left;
