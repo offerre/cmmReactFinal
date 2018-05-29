@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import { Link } from 'react-router-dom'
 import './Navbar.css'
 
 
@@ -21,17 +22,17 @@ class Navbar extends Component{
                 <a className="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="" title="Toggle Navigation Menu">
                 <i className="fa fa-bars"></i>
                 </a>
-                <a href="/" className="w3-bar-item w3-button"><img src="logo2.png" width="20" height="20" alt="" /></a>
-                <a href="/Products" className="w3-bar-item w3-button w3-hide-small"><i className="fa fa-th"></i> PRODUCT</a>
-                <a href="/Order" className="w3-bar-item w3-button w3-hide-small"><i className="fa fa-bars"></i> ORDER</a>
-                <a href="/Contact" className="w3-bar-item w3-button w3-hide-small"><i className="fa fa-envelope"></i> CONTACT</a>
+                <Link exact to="/" className="w3-bar-item w3-button"><img src="logo2.png" width="20" height="20" alt="" /></Link>
+                <Link to="/Products" className="w3-bar-item w3-button w3-hide-small"><i className="fa fa-th"></i> PRODUCT</Link>
+                <Link to="/Order" className="w3-bar-item w3-button w3-hide-small"><i className="fa fa-bars"></i> ORDER</Link>
+                <Link to="/Contact" className="w3-bar-item w3-button w3-hide-small"><i className="fa fa-envelope"></i> CONTACT</Link>
             </div>
 
             {/* Navbar on small screens */}
             <div id="navDemo" className="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-                <a href="/Product" className="w3-bar-item w3-button" >PRODUCT</a>
-                <a href="/Order" className="w3-bar-item w3-button" >ORDER</a>
-                <a href="/Contact" className="w3-bar-item w3-button" >CONTACT</a>
+                <Link to="/Product" className="w3-bar-item w3-button" >PRODUCT</Link>
+                <Link to="/Order" className="w3-bar-item w3-button" >ORDER</Link>
+                <Link to="/Contact" className="w3-bar-item w3-button" >CONTACT</Link>
             </div>
         </div>
         )
