@@ -1,13 +1,22 @@
 import React, { Component } from 'react';
 import './Contact.css'
-import Carousel from './Carousel';
+
+var sectionStyle = {
+  width : "100%",
+  height: "50vh" ,
+}
 
 class Contact extends Component{
   render(){
     return(
 
         <div id="home">
-        <Carousel />
+            {/* First Parallax Image with Logo Text */}
+            <div class="parallax4 w3-display-container w3-opacity-min" id="home" style={sectionStyle}>
+                <div class="w3-display-middle " style={sectionStyle}>
+                <span class="w3-display-middle w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity w3-hide-small w3-myFont">CONTACT</span>
+                </div>
+            </div>
 
           <div>
           </div>

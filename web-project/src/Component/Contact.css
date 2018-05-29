@@ -1,0 +1,15 @@
+/* Create a Parallax Effect */
+.parallax4 {
+    /* The image used */
+    
+    background-image: url('../Component/Photo/Promo4.jpg');
+
+    /* Full height */
+    height: 50%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
