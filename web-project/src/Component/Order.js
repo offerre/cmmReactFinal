@@ -18,12 +18,10 @@ class Order extends Component{
             </div>
 
               {/* Container (CheckOut Section) */}
-        <div className="w3-content w3-container w3-padding-64" id="order">
-          <h2 className="w3-padding-24">Shopping Cart</h2>
-          Coming Soon...
+        <div className="w3-content w3-container w3-padding-32" id="order">
           <div className="row">
           <div className="column">
-            <h2>Total Price</h2>
+            <h2 className="w3-myFont title-font-size">CheckOut</h2>
             {/* <!-- main --> */}
             <div className="main">
                 <div className="main-info">
@@ -68,6 +66,8 @@ class Order extends Component{
             </div>
           </div>
           </div>
+          <h2 className="w3-padding-24 w3-myFont title-font-size">Shopping Cart</h2>
+          Coming Soon...
         </div>
         </div>
     );
