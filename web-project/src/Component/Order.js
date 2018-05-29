@@ -11,59 +11,59 @@ class Order extends Component{
     return(
         <div id="home">
             {/* First Parallax Image with Logo Text */}
-            <div class="parallax3 w3-display-container w3-opacity-min" id="home" style={sectionStyle}>
-                <div class="w3-display-middle " style={sectionStyle}>
-                <span class="w3-display-middle w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity w3-hide-small w3-myFont">YOUR ORDER</span>
+            <div className="parallax3 w3-display-container w3-opacity-min" id="home" style={sectionStyle}>
+                <div className="w3-display-middle " style={sectionStyle}>
+                <span className="w3-display-middle w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity w3-hide-small w3-myFont">YOUR ORDER</span>
                 </div>
             </div>
 
               {/* Container (CheckOut Section) */}
-        <div class="w3-content w3-container w3-padding-64" id="order">
-          <h2 class="w3-padding-24">Shopping Cart</h2>
+        <div className="w3-content w3-container w3-padding-64" id="order">
+          <h2 className="w3-padding-24">Shopping Cart</h2>
           Coming Soon...
-          <div class="row">
-          <div class="column">
+          <div className="row">
+          <div className="column">
             <h2>Total Price</h2>
             {/* <!-- main --> */}
-            <div class="main">
-                <div class="main-info">
-                  <div class="form-left">
+            <div className="main">
+                <div className="main-info">
+                  <div className="form-left">
                     <h2>Checkout</h2>
                     <p>Select shipping method </p>
                     {/* <!--radio-buttons--> */}
-                    <div class="grid-radio">
-                      <span class="radio-circle radio-left">
+                    <div className="grid-radio">
+                      <span className="radio-circle radio-left">
                         <input type="radio" id="radio01" name="radio" />
-                        <label for="radio01"><i></i>USPS Express Mail</label>
+                        <label htmlFor="radio01"><i></i>USPS Express Mail</label>
                       </span>
-                      <span class="radio-circle">
+                      <span className="radio-circle">
                         <input type="radio" id="radio02" name="radio"/>
-                        <label for="radio02"><i></i>FedEx</label>
+                        <label htmlFor="radio02"><i></i>FedEx</label>
                       </span>
                     </div>
                     {/* <!--//radio-buttons--> */}
-                    <a href="#" class="pay-pal"> Checkout with <span>PayPal</span></a>
-                    <span class="middle-text">OR</span>
+                    <a href="#home" className="pay-pal"> Checkout with <span>PayPal</span></a>
+                    <span className="middle-text">OR</span>
                   </div>
-                  <div class="form-right">
-                    <div class="top-text">
+                  <div className="form-right">
+                    <div className="top-text">
                       <h3>Total Price</h3>
-                      <span class="price">$ 150</span>
-                      <div class="clear"> </div>
+                      <span className="price">$ 150</span>
+                      <div className="clear"> </div>
                     </div>
                     <p>Shopping cart:2 products</p>
-                    <div class="account">
+                    <div className="account">
                       <form> 
-                        <input type="text" class="checkout name" placeholder="Name" />
-                        <input type="text" class="checkout month" placeholder="MM" maxlength="2" />
-                        <input type="text" class="checkout month" placeholder="YY" maxlength="4" />
-                        <input type="text" class="checkout pin" placeholder="4444 1111 3333 2222" maxlength="12" />
-                        <input type="text" class="checkout month" placeholder="CVC" maxlength="4" />
+                        <input type="text" className="checkout name" placeholder="Name" />
+                        <input type="text" className="checkout month" placeholder="MM" maxLength="2" />
+                        <input type="text" className="checkout month" placeholder="YY" maxLength="4" />
+                        <input type="text" className="checkout pin" placeholder="4444 1111 3333 2222" maxLength="12" />
+                        <input type="text" className="checkout month" placeholder="CVC" maxLength="4" />
                         <input type="submit" value="Checkout with credit card" />
                       </form>
                     </div>
                   </div>
-                  <div class="clear"> </div>
+                  <div className="clear"> </div>
                 </div>		
             </div>
           </div>

@@ -19,9 +19,9 @@ class Navbar extends Component{
         return(
         <div className="w3-top">
             <div className="w3-bar" id="myNavbar">
-                <a className="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="" title="Toggle Navigation Menu">
+                <Link to="" className="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" title="Toggle Navigation Menu">
                 <i className="fa fa-bars"></i>
-                </a>
+                </Link>
                 <Link exact to="/" className="w3-bar-item w3-button"><img src="logo2.png" width="20" height="20" alt="" /></Link>
                 <Link to="/Products" className="w3-bar-item w3-button w3-hide-small"><i className="fa fa-th"></i> PRODUCT</Link>
                 <Link to="/Order" className="w3-bar-item w3-button w3-hide-small"><i className="fa fa-bars"></i> ORDER</Link>

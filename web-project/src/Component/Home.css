@@ -7,14 +7,30 @@
 }
 
 /* Create a Parallax Effect */
-.parallax1 {
+.parallax-first {
     /* The image used */
     
     background-image: url('../Component/Photo/Banner.jpg');
     
 
     /* Full height */
-    height: 50%; 
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-second {
+    /* The image used */
+    
+    background-image: url('../Component/Photo/Para1.jpg');
+    
+
+    /* Full height */
+    height: 100%; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -25,3 +41,15 @@
 
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
+
+
+/* Create three equal columns that floats next to each other */
+.column-home {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+.title-font-size{
+    font-size: 48px
+}
