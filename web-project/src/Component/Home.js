@@ -63,8 +63,8 @@ class Home extends Component{
         <div className="w3-content w3-container w3-padding-32" id="about">
         <h3 className="w3-center  w3-myFont title-font-size">HOT DEAL</h3>
         <p className="w3-center"><em>Special Price For You!</em></p>
-        <div class="row">
-            <div class="column-home">
+        <div className="row">
+            <div className="column-home">
             <div className="w3-container">
                 <div className="w3-display-container">
                   <img src="Product/แป้ง/5.jpg" style={Style1} alt="" />
@@ -76,7 +76,7 @@ class Home extends Component{
                   <p>ศรีจันทร์ ทรานส์ลูเซนท์ คอมแพค พาวเดอร์ (รีฟิว)<br /><b className="w3-text-red"><del>฿280</del> ฿140</b></p>
                 </div>
             </div>
-            <div class="column-home">
+            <div className="column-home">
                 <div className="w3-container">
                 <div className="w3-display-container">
                   <img src="Product/อายแชโดว์/1.jpg" style={Style1} alt="" />
@@ -88,7 +88,7 @@ class Home extends Component{
                   <p>เบตต้า อายแชโดว์ #ซีเคร็ต การ์เดน<br /><b className="w3-text-red"><del>฿490</del> ฿245</b></p>
                 </div>
             </div>
-            <div class="column-home">
+            <div className="column-home">
             <div className="w3-container">
                   <div className="w3-display-container">
                     <img src="Product/รองพื้น/2.jpg" style={Style3} alt="" />
