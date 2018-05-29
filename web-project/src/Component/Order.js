@@ -13,7 +13,7 @@ class Order extends Component{
             {/* First Parallax Image with Logo Text */}
             <div className="parallax3 w3-display-container w3-opacity-min" id="home" style={sectionStyle}>
                 <div className="w3-display-middle " style={sectionStyle}>
-                <span className="w3-display-middle w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity w3-hide-small w3-myFont">YOUR ORDER</span>
+                <span className="w3-display-middle w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity w3-hide-small">YOUR ORDER</span>
                 </div>
             </div>
 

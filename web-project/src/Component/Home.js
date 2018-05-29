@@ -19,10 +19,6 @@ var Style3 ={
   width : "70%",
 }
 
-var Style4 ={
-  width : "120%",
-}
-
 class Home extends Component{
   render(){
     return(
